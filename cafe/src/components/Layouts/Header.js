@@ -15,11 +15,12 @@ export const Header = () => {
           </Link>
           <div className="flex items-center relative">
             <Link to="/cart" className="text-gray-700 dark:text-white mr-5">
-              <span className="text-2xl bi bi-gear-wide-connected relative"></span>
-              <span className="text-2xl bi bi-search"></span>
-              <span className="text-2xl bi bi-cart-fill"></span>
-              <span className="text-2xl bi bi-person-circle"></span>
+              <span className="text-2xl bi bi-cart-fill relative"></span>
+              <span className="text-white text-sm absolute -top-1 left-2.5 bg-rose-500 px-1 rounded-full ">0</span>
             </Link>
+            <span className="text-2xl bi bi-gear-wide-connected relative"></span>
+              <span className="text-2xl bi bi-search"></span>
+              <span className="text-2xl bi bi-person-circle"></span>
           </div>
         </div>
       </nav>
